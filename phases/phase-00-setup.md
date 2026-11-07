@@ -8,7 +8,7 @@
 
 **Build:**
 
-- A `pong-ME` folder containing `index.html`, `style.css`, and `game.js`, all linked correctly.
+- A `pong-ME` folder containing `index.html`, `styles.css`, and `game.js`, all linked correctly.
 - A page that displays at least a heading and loads without errors.
 - A working habit of checking the browser console.
 - Optional but recommended: a Git repository with one initial commit.

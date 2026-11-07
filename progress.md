@@ -10,7 +10,7 @@ This file is the live state of the project. It tracks where you are, what is blo
 - **Stack:** plain HTML, CSS, and JavaScript
 - **Session size:** 30–60 minutes
 - **Started:** 2026-11-05
-- **Last updated:** 2026-11-05
+- **Last updated:** 2026-11-07
 
 ---
 
@@ -18,12 +18,12 @@ This file is the live state of the project. It tracks where you are, what is blo
 
 | Field | Value |
 |---|---|
-| **Current phase** | Phase 0 — Set up a workspace you can trust |
+| **Current phase** | Phase 1 — Build the static game shell |
 | **Phase status** | Not started |
-| **Completed phases** | 0 of 18 |
-| **Next action** | Create `index.html`, `style.css`, and `game.js`; link them; confirm a clean console |
+| **Completed phases** | 1 of 18 |
+| **Next action** | Confirm a clean Console and both linked files in DevTools, commit and push the pending edits, then start Phase 1 |
 | **Current blocker** | None |
-| **Last review** | None yet |
+| **Last review** | 2026-11-07 — Phase 0 (Reviewed) |
 
 > Keep this table current. It is the first thing to read at the start of a session.
 
@@ -35,7 +35,7 @@ Status values: **Not started**, **In progress**, **Ready for review**, **Needs w
 
 | Phase | Focus | Status | Started | Reviewed | Notes |
 |---|---|---|---|---|---|
-| 0 | [Workspace and tools](phases/phase-00-setup.md) | Not started | — | — | — |
+| 0 | [Workspace and tools](phases/phase-00-setup.md) | Reviewed | 2026-11-07 | 2026-11-07 | Files linked and page verified in headless Firefox. DevTools check and pending commit carried into Phase 1. |
 | 1 | [Static game shell and scoreboard](phases/phase-01-static-shell.md) | Not started | — | — | — |
 | 2 | [Canvas setup and field drawing](phases/phase-02-canvas-field.md) | Not started | — | — | — |
 | 3 | [Paddles, ball, and game state](phases/phase-03-paddles-and-ball.md) | Not started | — | — | — |
@@ -66,6 +66,7 @@ Record choices that would be expensive to rediscover later. Add a row whenever y
 | 2026-11-05 | Phases | Small sessions of 30–60 minutes | Match the preferred learning pace |
 | 2026-11-05 | Reference | Use `pong-AI` only as a last resort | Protect the learning value of building from scratch |
 | 2026-11-05 | Coaching | No full code solutions; hints and reviews only | Learn through decisions, not transcription |
+| 2026-11-07 | Files | Stylesheet named `styles.css`; brief and Phase 0 updated to match | Follow the actual project rather than force a rename |
 
 ---
 
@@ -83,8 +84,8 @@ Update the confidence score from 1 to 5 after each phase review. Use the notes c
 
 | Concept | Confidence (1–5) | Evidence or notes |
 |---|---|---|
-| Page structure and semantic HTML | — | — |
-| CSS layout, spacing, and responsive rules | — | — |
+| Page structure and semantic HTML | 3 | Valid document skeleton; stylesheet in the head, script at the end of the body, relative paths resolve |
+| CSS layout, spacing, and responsive rules | — | Stylesheet is intentionally empty for now |
 | Canvas coordinate space and drawing | — | — |
 | Animation loop and delta time | — | — |
 | Pointer and keyboard input | — | — |
@@ -94,7 +95,7 @@ Update the confidence score from 1 to 5 after each phase review. Use the notes c
 | DOM overlays and HUD updates | — | — |
 | Audio and user preferences | — | — |
 | Mobile and touch behavior | — | — |
-| Testing, debugging, and accessibility | — | — |
+| Testing, debugging, and accessibility | 2 | Page verified to load; DevTools Console and Network inspection not yet demonstrated |
 
 A score of 1–2 means "can recognise it"; 3 means "can build it with references"; 4–5 means "can explain and adapt it confidently." Honest scores help tailor future hints.
 

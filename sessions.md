@@ -7,7 +7,7 @@ This file is the dated journal for the project. It records what you actually did
 - **Progress tracker:** [progress.md](progress.md)
 - **Reference (fallback only):** `../pong-AI`
 - **Started:** 2026-11-05
-- **Next session:** Session 1
+- **Next session:** Session 2
 
 New entries go at the top. Keep them short and concrete. It is fine to record a messy session; honesty is more useful than a perfect write-up.
 
@@ -25,6 +25,28 @@ New entries go at the top. Keep them short and concrete. It is fine to record a 
 ---
 
 ## Session log
+
+### Review — 2026-11-07 — Phase 0: Set up a workspace you can trust
+
+- **Status after review:** Reviewed — setup verified; one DevTools check carried into the start of Phase 1.
+- **Observed:** `index.html` renders the heading "My Pong Game" in headless Firefox at 1280×800. It links `styles.css` and `game.js`, both present and intentionally empty. A Git repository exists with commit `19109ff` and an `origin/main` remote. `index.html` and `sessions.md` have edits that are not in that commit yet.
+- **Working well:** Valid document skeleton (`doctype`, `lang`, charset, viewport, title). The stylesheet is linked in the head and the script at the end of the body, so the page is parsed before the script runs. Relative paths resolve.
+- **Must fix:** Nothing blocking. Before Phase 1: commit and push the pending changes; in DevTools confirm the Console is clean and Network shows `styles.css` and `game.js` loading successfully.
+- **Concepts demonstrated:** relative paths, document structure, stylesheet versus script loading, basic Git workflow.
+- **Concepts to revisit:** reading the DevTools Console and Network panels; connecting what appears in the browser back to the file that produced it.
+- **Question asked:** Why `styles.css` rather than the brief's `style.css`, and what should DevTools Network show for the two linked files?
+- **Next focus:** Phase 1 — Build the static game shell.
+
+### Session 1 — 2026-11-07 — Phase 0: Set up a workspace you can trust
+
+- **Phase:** Phase 0 — Set up a workspace you can trust
+- **Goal for this session:** finish the setup files and the Git repository.
+- **What I built:** `index.html`, `styles.css`, and `game.js`; created a GitHub repository and pushed the project.
+- **What worked:** The page loaded and displayed the heading; the repository was created and pushed.
+- **What I learned:** Not recorded at the time — the setup concepts (paths, load order, DevTools) are being checked in the review.
+- **Decisions made:** Named the stylesheet `styles.css` instead of the brief's `style.css`.
+- **Unfinished / blockers:** Nothing reported. DevTools evidence still to confirm.
+- **Next step:** Commit the pending edits, then start Phase 1.
 
 ### Session 0 — 2026-11-05 — Project setup
 

@@ -34,7 +34,7 @@ Online multiplayer, accounts, databases, 3D graphics, native mobile apps, comple
 
 - **Technology:** plain HTML, CSS, and JavaScript only. No frameworks, no game engines, no third-party libraries.
 - **Rendering:** the playfield is drawn with the Canvas 2D API. Menus, HUD, and buttons are normal HTML elements.
-- **Files:** start with `index.html`, `style.css`, and `game.js`. Split further only when it genuinely improves clarity.
+- **Files:** start with `index.html`, `styles.css`, and `game.js`. Split further only when it genuinely improves clarity.
 - **Session size:** target one phase per 30–60 minute session. Some phases may take two sessions; that is expected.
 - **Reference project:** `../pong-AI` is available, but it is a **last-resort fallback**, not a tutorial. See the fallback protocol below.
 - **No copy-paste:** every line you keep should be a line you can explain.
